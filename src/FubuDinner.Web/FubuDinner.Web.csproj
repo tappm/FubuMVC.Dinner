@@ -60,7 +60,12 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Handles\Home\GetHandler.cs" />
+    <Compile Include="Handles\Home\HomeViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Handles\Home\Home.spark" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />

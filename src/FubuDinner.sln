@@ -3,7 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FubuDinner.Web", "FubuDinner.Web\FubuDinner.Web.csproj", "{1A321BA3-CCFB-4AAF-AD92-F5EDF5C5CE9F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FubuDinner.Domain", "FubuDinner.Domain\FubuDinner.Domain.csproj", "{848BCC86-1940-462E-8F83-BD487F4136D7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E852BD3F-5AB0-4463-877C-254C341B7321}"
+	ProjectSection(SolutionItems) = preProject
+		FubuDinner.vsmdi = FubuDinner.vsmdi
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FubDinner.Web.Test", "FubDinner.Web.Test\FubDinner.Web.Test.csproj", "{DB97E740-72AC-4371-AABA-508EA60CD9F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FubDinner.Domain.Test", "FubDinner.Domain.Test\FubDinner.Domain.Test.csproj", "{D3E657FF-82CB-4E54-B3FE-AE270679F653}"
+EndProject
 Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = FubuDinner.vsmdi
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
@@ -13,6 +29,18 @@ Global
 		{1A321BA3-CCFB-4AAF-AD92-F5EDF5C5CE9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A321BA3-CCFB-4AAF-AD92-F5EDF5C5CE9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A321BA3-CCFB-4AAF-AD92-F5EDF5C5CE9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{848BCC86-1940-462E-8F83-BD487F4136D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{848BCC86-1940-462E-8F83-BD487F4136D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{848BCC86-1940-462E-8F83-BD487F4136D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{848BCC86-1940-462E-8F83-BD487F4136D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB97E740-72AC-4371-AABA-508EA60CD9F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB97E740-72AC-4371-AABA-508EA60CD9F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB97E740-72AC-4371-AABA-508EA60CD9F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB97E740-72AC-4371-AABA-508EA60CD9F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3E657FF-82CB-4E54-B3FE-AE270679F653}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3E657FF-82CB-4E54-B3FE-AE270679F653}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3E657FF-82CB-4E54-B3FE-AE270679F653}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3E657FF-82CB-4E54-B3FE-AE270679F653}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
